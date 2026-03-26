@@ -36,6 +36,9 @@ if (missingEnvVars.length > 0) {
 
 const app = express();
 
+// Trust proxy — required for Render/cloud hosting (fixes rate limiter X-Forwarded-For warning)
+app.set('trust proxy', 1);
+
 // Security middleware
 app.use(helmet());
 
