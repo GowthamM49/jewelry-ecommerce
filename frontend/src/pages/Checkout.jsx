@@ -362,9 +362,6 @@ const Checkout = () => {
               <Input label="ZIP Code *" type="text" name="zipCode"
                 value={shippingAddress.zipCode} onChange={handleInputChange} required />
 
-              <div className="bg-amber-50 border border-amber-200 rounded-2xl p-4 flex gap-3 items-start">
-                <span className="text-xl mt-0.5">💳</span>
-              </div>
             </form>
           </Card>
         </div>
