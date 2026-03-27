@@ -364,12 +364,6 @@ const Checkout = () => {
 
               <div className="bg-amber-50 border border-amber-200 rounded-2xl p-4 flex gap-3 items-start">
                 <span className="text-xl mt-0.5">💳</span>
-                <div>
-                  <p className="text-sm font-semibold text-amber-800">Sample Payment Mode</p>
-                  <p className="text-xs text-amber-700 mt-0.5">
-                    Supports Card, UPI, Wallet &amp; Net Banking. No real money is charged — this is a demo.
-                  </p>
-                </div>
               </div>
             </form>
           </Card>
