@@ -5,7 +5,7 @@ pipeline {
 
         stage('Checkout') {
             steps {
-                git 'https://github.com/GowthamM49/jewelry-ecommerce.git'
+                git branch: 'main', url: 'https://github.com/GowthamM49/jewelry-ecommerce.git'
             }
         }
 
